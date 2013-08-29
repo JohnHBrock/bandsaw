@@ -21,5 +21,5 @@ python bandsaw.py
 ```
 
 ##Finding your Basis user ID
-See instructions in the [README for the PHP-based basis-data-export project](https://github.com/btroia/basis-data-export/blob/master/README.md).
+See instructions in the [README for btroia's PHP-based basis-data-export project](https://github.com/btroia/basis-data-export/blob/master/README.md).
 
