@@ -16,6 +16,8 @@ def append_to_csv(json):
     """Takes JSON and flattens into CSVs."""
     with open(CSV_NAME, 'ab') as csv_file:
         writer = csv.writer(csv_file)
+        if 'endtime' not in json:
+            return
         for i in range((json['endtime'] - json['starttime']) / json['interval']):
             unix_time_utc = json['starttime'] + i*json['interval']
 
