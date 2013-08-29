@@ -1,7 +1,7 @@
 bandsaw
 =======
 
-A Python module for retrieving [Basis Band](http://www.mybasis.com/) data within a date range and storing that data in a CSV file.
+A Python module for retrieving [Basis Band](http://www.mybasis.com/) data from the Basis website. It retrieves data from a date range and stores that data in a CSV file.
 
 ## Using Bandsaw
 ```
