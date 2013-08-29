@@ -52,5 +52,5 @@ def get_data(user_id, start_date, end_date):
 
 if __name__ == '__main__':
     create_csv()
-    for data in get_data('basis user id goes here', datetime.datetime(2013, 8, 13), datetime.datetime(2013, 8, 28)):
+    for data in get_data('BASIS USER ID GOES HERE', datetime.datetime(2013, 8, 13), datetime.datetime(2013, 8, 28)):
         append_to_csv(data)
