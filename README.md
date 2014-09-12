@@ -1,6 +1,8 @@
 bandsaw
 =======
 
+NOTE: I am no longer maintaining this code; I no longer have a Basis Band.
+
 A Python module for retrieving [Basis Band](http://www.mybasis.com/) data from the Basis website. It retrieves data from a date range and stores that data in a CSV file.
 
 ##Using Bandsaw
